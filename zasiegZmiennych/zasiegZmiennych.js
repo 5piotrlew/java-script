@@ -10,11 +10,8 @@ var sumaKasy;
 function policzSumeKasy(skladowa1, skladowa2, skladowa3, skladowa4)
 {
     var sumaKasy;
-    sumaKasy = skladowa1 + skladowa2 + skladowa3 + skladowa4;
-    
-    return sumaKasy;
-    
-    
+    sumaKasy = skladowa1 + skladowa2 + skladowa3 + skladowa4;    
+    return sumaKasy;    
 }
 
 sumaKasy = policzSumeKasy( krzysiek, jurek, jola, sergio);
