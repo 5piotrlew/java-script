@@ -21,11 +21,20 @@
 //    iter++;
 //} while (iter < 10 )
 
-var a = 0;
-while ( a < 10 ) {
-    console.log(++a);
-    
-    if ( a == 5 ) {
-        break;
-    }
+//var a = 0;
+//while ( a < 10 ) {
+//    
+//    console.log(++a);
+//    
+//    if ( a == 5 ) {
+//        break;
+//    }
+//}
+
+for ( var i=1 ; i<4 ; ) {
+    console.log(++i);
+}
+console.log('----');
+for ( var i=1; i<4 ; ) {
+    console.log(i++);
 }
