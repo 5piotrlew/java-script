@@ -25,3 +25,4 @@ var funkcja = function () {
 };
 
 console.log(funkcja);
+console.log(funkcja());
