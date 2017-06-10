@@ -26,3 +26,11 @@ console.log(imiona);
 console.log(imiona.shift()); //wyswietla pierwszy element i jednoczesnie usuwa
 console.log(imiona);
 
+console.log(imiona);
+console.log(imiona.length);
+
+//petla przeleci po wszystkich elementach tablicy
+
+for (var i = 0; i < imiona.length ; i++) {
+    console.log( imiona[i]);
+}
