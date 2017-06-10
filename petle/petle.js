@@ -31,10 +31,20 @@
 //    }
 //}
 
-for ( var i=1 ; i<4 ; ) {
+/*for ( var i=1 ; i<4 ; ) {
     console.log(++i);
 }
 console.log('----');
 for ( var i=1; i<4 ; ) {
     console.log(i++);
+}*/
+
+for (var b = 0; b < 6 ; ++b ) {
+    if ( b == 3 ) {
+        continue;
+    } else {
+        console.log(b);
+    }
+    
+    console.log("--");
 }
