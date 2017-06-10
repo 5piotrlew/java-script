@@ -34,3 +34,36 @@ console.log(imiona.length);
 for (var i = 0; i < imiona.length ; i++) {
     console.log( imiona[i]);
 }
+
+
+imiona.forEach(function (element, i) {
+    console.log('Element nr ' + i + '=' + element);    
+});
+
+console.log(imiona.join("-")); //łączy po kolei każdy element kreską
+
+imiona.sort();
+
+console.log(imiona);
+
+imiona.reverse();
+
+console.log(imiona);
+
+var imionaMeskie = ['Robert', 'Mariusz', 'Andrzej'];
+
+var zbiorImion = imionaMeskie.concat(imiona);
+console.log(zbiorImion);
+
+
+console.log(zbiorImion.indexOf("Mariusz")); //pokaze na ktorym miejscu jest Mariusz
+
+console.log( Array.isArray(zbiorImion)); //sprawdzamy czy jest tablicą
+
+console.log( zbiorImion.slice(2, 5));
+
+zbiorImion.splice(2, 3, "Julek", "Krzyś"); //od drugiego wycina 3 i wkleja swoje dwa julek i krzys
+
+console.log(zbiorImion);
+
+console.log(zbiorImion.toString());
